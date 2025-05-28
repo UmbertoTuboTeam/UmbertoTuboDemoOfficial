@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UmbertoTuboDemo1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        font-family: 'Orbitron', sans-serif;
+        color: #0ff;
+        text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+      }
+
+      .DevAvatarHome {
+        object-position: right;
+        width: 300px;
+        border: 2px solid #0ff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #0ff;
+      }
+
+      .search-bar {
+        display: inline-block;
+        margin: 50px 300px 0 373px;
+        font-size: 1.2em;
+      }
+      
+      .DevMessage2,
+      .DevMessage1,
+      .DevGreeting,
+      .WbWorkingMethod,
+      .infos2,
+      .BannableVideos,
+      .SignUpQuestion1,
+      .HackingChances,
+      .PrivateWebsiteQuestion,
+      .Updates,
+      .Notifications,
+      .Personalization,
+      .MultipleAccounts,
+      .IdeaPresentation {
+        width: 250px;
+        font-size: 1em;
+        line-height: 1.4em;
+        margin: 10px;
+      }
+
+      .infos,
+      .infos2 {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .infos2 {
+        margin-left: 700px;
+      }
+      
+      .More-Info {
+        margin-top: 100px;
+        display: inline-block;
+      }
+
+      dd {
+        margin-bottom: 20px;
+      }
+
+      .More-Info-Button {
+        width: 120px;
+        height: 48px;
+        border-radius: 18px;
+        background-color: transparent;
+        border: 2px solid #0ff;
+        color: #0ff;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-left: 120px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-shadow: 0 0 5px #0ff;
+      }
+      .More-Info-Button:hover {
+        background-color: #0ff;
+        color: #000;
+      }
+      .More-Info-Button:active {
+        background-color: #0ff;
+        opacity: 0.8;
+      }
+
+      .Comment-Button {
+        width: 120px;
+        height: 36px;
+        border-radius: 18px;
+        background-color: transparent;
+        border: 2px solid #0ff;
+        color: #0ff;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 900;
+        margin-left: 100px;
+        margin-top: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-shadow: 0 0 5px #0ff;
+      }
+      .Comment-Button:hover {
+        background-color: #0ff;
+        color: #000;
+      }
+      .Comment-Button:active {
+        opacity: 0.7;
+      }
+
+      .Easter-Egg {
+        width: 120px;
+        height: 36px;
+        border-radius: 4px;
+        border: 2px solid #0ff;
+        background-image: url("Images/Ciao.png");
+        background-size: 120px;
+        color: #0ff;
+        margin-top: 1200px;
+        cursor: pointer;
+        transition: background-size 0.3s ease;
+      }
+      .Easter-Egg:hover {
+        background-image: url("Images/WorkInProgress.png");
+        background-size: 20px;
+      }
+      
+      h1, h2, h4, strong {
+        color: #0ff;
+        text-shadow: 0 0 10px #0ff;
+      }
+      p {
+        color: #0ff;
+        text-shadow: 0 0 5px #0ff;
+      }
+      
+      video {
+        border: 2px solid #0ff;
+        box-shadow: 0 0 10px #0ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button id="emailButton" class="Comment-Button">COMMENTA</button>
+      <script>
+        document.getElementById("emailButton").addEventListener("click", function() {
+            window.location.href = "contact.html";
+        });
+      </script>
+    </div>
+    <div class="infos">
+      <div class="DevGreeting">
+        <img class="DevAvatarHome" src="Images/creature1.png" alt="Avatar">
+        <p class="DevMessage1">
+          Ciao! Questa è la prima demo del sito! Non è completa. Per ora potete vedere
+          delle informazioni sul futuro del sito (qui sotto) e immaginare il suo
+          aspetto in futuro.
+        </p>
+      </div>
+      <p class="WbWorkingMethod">
+        <strong>COME FUNZIONERà IL SITO?</strong><br>
+        UmbertoTubo sarà una mini-piattaforma in cui potrete
+        caricare, vedere e condividere video sul gioco delle nazioni,
+        video musicali ufficiali di Suno e film!
+      </p>
+      <p class="BannableVideos">
+        <strong>QUALI VIDEO SARANNO BANNABILI?</strong><br>
+        Tutti i video che non c'entrano nulla, che non sono fatti
+        da voi, o che contengono informazioni false saranno bannabili.
+        (Chiedete su WhatsApp per una lista completa.)
+      </p>
+      <p class="SignUpQuestion1">
+        <strong>CI SARà BISOGNO DI EMAIL O NUMERO DI TELEFONO PER ACCEDERE?</strong><br>
+        Non sarà obbligatorio, ma usare l'email sarebbe consigliato per
+        la creazione dell'account.
+      </p>
+      <p class="HackingChances">
+        <strong>MI POTRAI HACKERARE DAL SITO?</strong><br>
+        Tecnicamente sì: ci sono vari modi in cui potrei farvi problemi,
+        ma voi potreste fare altrettanto. L'importante è la consapevolezza!
+      </p>
+      <p class="PrivateWebsiteQuestion">
+        <strong>QUALCUNO PUò VEDERCI SU QUESTO SITO?</strong><br>
+        Un hacker esperto potrebbe spiare le chat (per non dire altro),
+        ma il sito è privato e apparirà solo a chi ne ha accesso.
+      </p>
+      <p class="Updates">
+        <strong>CI SARANNO AGGIORNAMENTI?</strong><br>
+        Sicuramente! Sia per bug fix che per nuove funzionalità e miglioramenti estetici.
+      </p>
+    </div>
+    
+    <div class="infos2">
+      <div class="DevGreeting">
+        <img class="DevAvatarHome" src="Images/WorkInProgress.png" alt="Work in Progress">
+        <p class="DevMessage2">
+          Qui potete vedere alcune idee aggiuntive su come svilupperò il sito,
+          con possibili funzionalità future.
+        </p>
+      </div>
+      <p class="MultipleAccounts">
+        <strong>POSSIBILITÀ DI AVERE DUE ACCOUNT</strong><br>
+        Sto valutando l'idea di permettere più account su uno stesso dispositivo
+        per organizzare meglio video e contenuti differenti.
+      </p>
+      <p class="Notifications">
+        <strong>RICEVERE NOTIFICHE DAL SITO</strong><br>
+        Sto pensando anche a un sistema di notifiche per i commenti e altre interazioni.
+      </p>
+      <p class="Personalization">
+        <strong>PERSONALIZZAZIONE DELLA PAGINA</strong><br>
+        Prevedo di permettervi di personalizzare alcuni aspetti come lo sfondo e i tasti.
+      </p>
+    </div>
+    
+    <div>
+      <h4 class="More-Info">
+        <strong>MAGGIORI INFO SUL SITO</strong>
+        <dl>
+          <dt>TI POTRÒ HACKERARE DAL SITO?</dt>
+          <dd>Beh sì, ma non potrai perchè non ci sai fare. :)</dd>
+          <dt>CI SARÀ SPAZIO INFINITO PER CARICARE VIDEO?</dt>
+          <dd>Eh... non ho server giganti né Google Drive Premium.</dd>
+        </dl>
+      </h4>
+      <script src="GeneralStuff.js"></script>
+      <button class="More-Info-Button" onclick="alert('La sicurezza del sito finale sarà comunque modesta, ma farò del mio meglio!')">
+        ULTERIORI INFO
+      </button>
+    </div>
+    <button class="Easter-Egg">
+      Easter Egg
+    </button>
+  </body>
+</html>
